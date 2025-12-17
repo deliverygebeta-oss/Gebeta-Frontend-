@@ -40,11 +40,11 @@ const Navbar = () => {
 
           <div className="navbar-right">
             <ul className={`navbar-menu ${isMobileMenuOpen ? 'active' : ''}`}>
-              <li><a onClick={() => scrollToSection('hero')}>Home</a></li>
-              <li><a onClick={() => scrollToSection('services')}>Services</a></li>
-              <li><a onClick={() => scrollToSection('about')}>About</a></li>
-              <li><a onClick={() => scrollToSection('portfolio')}>Portfolio</a></li>
-              <li><a onClick={() => scrollToSection('contact')}>Contact</a></li>
+              <li><button type="button" onClick={() => scrollToSection('hero')}>Home</button></li>
+              <li><button type="button" onClick={() => scrollToSection('services')}>Services</button></li>
+              <li><button type="button" onClick={() => scrollToSection('about')}>About</button></li>
+              <li><button type="button" onClick={() => scrollToSection('portfolio')}>Portfolio</button></li>
+              <li><button type="button" onClick={() => scrollToSection('contact')}>Contact</button></li>
             </ul>
 
             <button 

@@ -1,10 +1,8 @@
 import React, { useState, useRef, useEffect } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { 
-  FaComments, 
   FaTimes, 
   FaPaperPlane, 
-  FaRobot,
   FaUser 
 } from 'react-icons/fa';
 import './Chatbot.css';

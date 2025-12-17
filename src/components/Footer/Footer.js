@@ -60,32 +60,32 @@ const Footer = () => {
               businesses through innovative web and mobile applications.
             </p>
             <div className="footer-social">
-                <a href="#" className="social-icon"><FaFacebook /></a>
-                <a href="#" className="social-icon"><FaTwitter /></a>
-                <a href="#" className="social-icon"><FaLinkedin /></a>
-                <a href="#" className="social-icon"><FaInstagram /></a>
+                <a href="https://facebook.com" target="_blank" rel="noopener noreferrer" className="social-icon"><FaFacebook /></a>
+                <a href="https://twitter.com" target="_blank" rel="noopener noreferrer" className="social-icon"><FaTwitter /></a>
+                <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" className="social-icon"><FaLinkedin /></a>
+                <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" className="social-icon"><FaInstagram /></a>
             </div>
           </div>
 
           <div className="footer-section">
             <h4>Quick Links</h4>
             <ul className="footer-links">
-              <li><a onClick={() => scrollToSection('hero')}>Home</a></li>
-              <li><a onClick={() => scrollToSection('services')}>Services</a></li>
-              <li><a onClick={() => scrollToSection('about')}>About Us</a></li>
-              <li><a onClick={() => scrollToSection('portfolio')}>Portfolio</a></li>
-              <li><a onClick={() => scrollToSection('contact')}>Contact</a></li>
+              <li><button type="button" onClick={() => scrollToSection('hero')}>Home</button></li>
+              <li><button type="button" onClick={() => scrollToSection('services')}>Services</button></li>
+              <li><button type="button" onClick={() => scrollToSection('about')}>About Us</button></li>
+              <li><button type="button" onClick={() => scrollToSection('portfolio')}>Portfolio</button></li>
+              <li><button type="button" onClick={() => scrollToSection('contact')}>Contact</button></li>
             </ul>
           </div>
 
           <div className="footer-section">
             <h4>Services</h4>
             <ul className="footer-links">
-              <li><a href="#">Website Development</a></li>
-              <li><a href="#">Mobile App Development</a></li>
-              <li><a href="#">App Integration</a></li>
-              <li><a href="#">E-Commerce Solutions</a></li>
-              <li><a href="#">Cloud Solutions</a></li>
+              <li><button type="button" onClick={() => scrollToSection('services')}>Website Development</button></li>
+              <li><button type="button" onClick={() => scrollToSection('services')}>Mobile App Development</button></li>
+              <li><button type="button" onClick={() => scrollToSection('services')}>App Integration</button></li>
+              <li><button type="button" onClick={() => scrollToSection('services')}>E-Commerce Solutions</button></li>
+              <li><button type="button" onClick={() => scrollToSection('services')}>Cloud Solutions</button></li>
             </ul>
           </div>
 
@@ -133,9 +133,9 @@ const Footer = () => {
         <div className="footer-bottom">
           <p>&copy; {new Date().getFullYear()} Gebeta Tech. All rights reserved.</p>
           <div className="footer-bottom-links">
-            <a href="#">Privacy Policy</a>
-            <a href="#">Terms of Service</a>
-            <a href="#">Cookie Policy</a>
+            <a href="/privacy-policy">Privacy Policy</a>
+            <a href="/terms-of-service">Terms of Service</a>
+            <a href="/cookie-policy">Cookie Policy</a>
           </div>
         </div>
       </div>
